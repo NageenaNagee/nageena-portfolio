@@ -567,6 +567,15 @@ section {
   animation: slideInUp 1s ease-out 0.3s both;
 }
 
+.hero-text {
+  text-align: center;
+  margin-top: 100px;
+}
+.hero-btn {
+  display: block;
+  margin: 20px auto 0 auto; /* centers the button */
+}
+
 .cta-buttons {
   display: flex;
   gap: 1rem;
@@ -676,11 +685,11 @@ section {
 }
 
 .about-intro {
-  display: flex;
-  align-items: center;
+   display: flex;
+  align-items: center; /* Vertical alignment */
   gap: 3rem;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .about-image {
@@ -753,10 +762,12 @@ section {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--text-primary);
+  text-align: center;
 }
 
 .about-text p {
   font-size: 1.1rem;
+  text-align: center;
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
 }
@@ -813,6 +824,14 @@ section {
 .about-card p {
   color: var(--text-secondary);
 }
+
+.about-section {
+  display: flex;
+  align-items: center; /* vertical align */
+  justify-content: space-between; /* keeps image and text apart */
+  gap: 40px;
+}
+
 
 /* Skills section */
 .skills-container {
@@ -1059,6 +1078,18 @@ section {
   );
   border-radius: 3px;
   transition: width 1s ease;
+}
+
+.skill-card {
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+}
+.skills-container {
+  display: flex;
+  justify-content: center; /* centers all cards horizontally */
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 /* Timeline section */
