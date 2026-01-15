@@ -696,7 +696,7 @@ section {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-image: url("images/portfolio-nageena.jpg");
+  background-image: url("images/portfolio-image.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
@@ -911,8 +911,8 @@ section {
 }
 
 .skill-node .skill-name {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.6rem;
+  font-weight: 400;
   text-align: center;
   color: var(--text-primary);
 }
@@ -1470,15 +1470,15 @@ section {
 
 /* Specific portfolio images */
 .portfolio-resume {
-  background-image: url("images/portfolio-resume.jpg");
+  background-image: url("images/Image-4.jpg");
 }
 
 .portfolio-linkedin {
-  background-image: url("images/portfolio-linkedin.jpg");
+  background-image: url("images/Image-5.jpg");
 }
 
 .portfolio-portfolio {
-  background-image: url("images/Portfolio-portfolio.jpg");
+  background-image: url("images/Image-6.jpg");
 }
 
 .portfolio-content {

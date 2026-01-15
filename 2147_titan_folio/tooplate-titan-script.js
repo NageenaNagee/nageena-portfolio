@@ -188,3 +188,4 @@ function initTimeline() {
 
 // Initialize timeline when DOM is ready
 document.addEventListener('DOMContentLoaded', initTimeline);
+
