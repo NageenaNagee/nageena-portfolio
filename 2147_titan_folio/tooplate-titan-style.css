@@ -696,7 +696,7 @@ section {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-image: url("images/portfolio-nageena.jpg");
+  background-image: url("images/Portfolio-Imagee.png");
   background-size: cover;
   background-position: center;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
@@ -911,8 +911,8 @@ section {
 }
 
 .skill-node .skill-name {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.6rem;
+  font-weight: 400;
   text-align: center;
   color: var(--text-primary);
 }
@@ -1478,7 +1478,7 @@ section {
 }
 
 .portfolio-portfolio {
-  background-image: url("images/Portfolio-portfolio.jpg");
+  background-image: url("images/portfolio-portfolio.jpg");
 }
 
 .portfolio-content {
